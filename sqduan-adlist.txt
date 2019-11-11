@@ -1,0 +1,26 @@
+! Version: 20191111
+! Title: Sqduan's AdList
+
+! cnsd下部登录框
+!blog.csdn.net##.pulllog-box
+! csdn左侧去广告残留白框
+blog.csdn.net##.box-shadow.mb8.csdn-tracking-statistics
+blog.csdn.net##div[id^="kp_box_"]
+! csdn底部广告
+blog.csdn.net##div.recommend-recommend-box, .clearfix.t0
+
+
+! bilibili下载app框
+www.bilibili.com###fixed_app_download
+
+! 百度文库
+! 文档页间广告
+wenku.baidu.com##div[id^="html-reader-AD-"]
+wenku.baidu.com##div[id^="html-reader-banner-"]
+!wenku.baidu.com##.wkfc-wrap
+! 文档底部广告
+wenku.baidu.com##.fc-container > .fc-wrap > .fc-inner
+! 右下弹出框
+||edu-ad-test-cdn.cdn.bcebos.com$image
+! 右侧天猫广告条
+wenku.baidu.com##.gl-display
